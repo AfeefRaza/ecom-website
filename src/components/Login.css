@@ -1,0 +1,138 @@
+.Login-container{
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 80vw;
+    
+}
+.welcome{
+    display: none;
+}
+.Login-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 40vw;
+    height: 70vh; 
+    background-color: #EDF5E1;
+    color: #05386b;
+
+}
+.Login-form hr{
+    height: 1px;
+    width: 10vw;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.hr{
+    margin-top: 1vh;
+    font-size: 15px;
+    color: rgb(165, 165, 165);
+    display: flex;
+    flex-direction: row;
+
+}
+.Login-form form{
+    margin-top: 5vh;
+}
+.Login-form .form-control{
+    width: 25vw;
+}
+.Login-img{
+    width: 20vw;
+    height: 70vh; 
+    
+    
+}
+.Loginbtn a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 3vw;
+    width: 17vw;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5vh;
+}
+.Loginbtn a img{
+    margin-right: 0.2vw;
+    width: 1.5vw;
+}
+.Fbbtn{
+    
+    background-color: #05386b;
+    color: #EDF5E1;
+}
+.Googlebtn{
+    background-color: #d34836;
+    color: #EDF5E1;
+}
+.Loginbtn a:hover{
+    color: #8ee4af;
+}
+@media screen and (min-aspect-ratio: 16/9) {
+    .Login-container{
+        height: 100vh;
+    }
+    .Login-form{
+        height: 100vh; 
+       
+    
+    }
+    .Login-img{
+        
+        height: 100vh; 
+        
+        
+    }
+  }
+  @media (max-width:600px)  {
+    .Login-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .welcome{
+        display: none;
+        color: #EDF5E1;
+        margin-bottom: 5vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    .welcome h1{
+        font-size: 10vw;
+    }
+    .welcome img{
+        width: 25vw;
+    }
+    .Login-img{
+        display: none;
+    }
+    .Login-form{
+        display: flex;
+        /* align-items: center; */
+        flex-direction: column;
+        width: 70vw;
+        height: 80vh; 
+        background-color: #EDF5E1;
+        color: #05386b;
+    
+    }
+    .Login-form .form-control{
+        width: 60vw;
+    }
+    .btn{
+        width: 25vw;
+        height: 4vh;
+    }
+    .Loginbtn a{
+        height: 7vw;
+        width: 30vw;
+    }
+    .Loginbtn a img{
+        width: 3vw;
+    }
+  }

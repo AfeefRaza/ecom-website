@@ -1,0 +1,48 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    width: 100%;
+
+    background-color: #05386b;
+    color: #EDF5E1;
+}
+.main-grid{
+    display: flex;
+    margin-top: 1vw;
+    
+
+}
+.banner h1{
+    font-size: 7vw;
+}
+
+.products-categories h4{
+    color: #EDF5E1;
+    margin-left: 1.5vw;
+    font-weight: 600;
+}
+.left-grid{
+    width: 22%;
+    margin-left: 2vw;
+    
+}
+.left-categories{
+    border: #11130e solid;
+    border-radius: 5%;
+    padding: 0 1vw;
+}
+.left-grid h1{
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.right-grid{
+    display: flex;
+}
+.Products-1{
+    width: 23%;
+}
+

@@ -1,0 +1,143 @@
+/* .Item{
+    height: 90vh;
+} */
+
+.card{
+    display: flex;
+    align-items: center;
+    border-radius: 3%;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 17vw;
+    height: 48vh;
+    text-decoration: none;
+    background-color: #05386b;
+    
+}
+
+.card img{
+    margin-top: 10px;
+    width: 21vh;
+    height: 14vw;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+.card-body h5{
+    color: #EDF5E1;
+    font-size: 16px;
+    
+}
+.card-text {
+    font-size: 25px;
+    color: #8ee4af;
+}
+.card-body h4{
+    
+    font-size: 1.7vw;
+    color: #EDF5E1;
+}
+.count{
+    color: #EDF5E1 !important;
+    font-size: 1vw;
+}
+
+.btn{
+    margin-bottom: 2vh;
+    border: 1px solid #EDF5E1;
+    color: #EDF5E1;
+    background-color: #8ee4af;
+}
+.btn:hover {
+    background-color: #EDF5E1;
+    color: #8ee4af;
+
+  }
+
+@media screen and (min-aspect-ratio: 16/9) {
+    .card{
+        height: 67vh;
+        
+        
+    }
+
+  }
+@media (max-width:600px)  {
+    .item{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .card{
+        /* margin-left: 50px; */
+        width: 30vw;
+        height: 30vh;
+        
+    }
+    .card img{
+        width: 25vw;
+        height: 25vw;
+    }
+    .card-body h5{
+        
+        font-size: 2.5vw;
+        
+    }
+    .card-text {
+        font-size: 1.9vw;
+        color: #8ee4af;
+    }
+    .card-body h4{
+        
+        font-size: 2vw;
+        color: #EDF5E1;
+    }
+    .count{
+        color: #EDF5E1 !important;
+        font-size: 1.2vw;
+    }
+    .btn{
+        height: 3vh;
+        font-size: 2vw;
+    }
+  }
+  @media (max-width:801px)  {
+    .item{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .card{
+        /* margin-left: 50px; */
+        width: 30vw;
+        height: 27vh;
+        
+    }
+    .card img{
+        width: 25vw;
+        height: 25vw;
+    }
+    .card-body h5{
+        
+        font-size: 2.5vw;
+        
+    }
+    .card-text {
+        font-size: 1.9vw;
+        color: #8ee4af;
+    }
+    .card-body h4{
+        
+        font-size: 2vw;
+        color: #EDF5E1;
+    }
+    .count{
+        color: #EDF5E1 !important;
+        font-size: 1.2vw;
+    }
+    .btn{
+        height: 3vh;
+        font-size: 2vw;
+    }
+  }

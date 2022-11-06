@@ -1,0 +1,22 @@
+[
+    { "id" : 1,
+    "title":"electronics",
+    "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+    "slug":"phone-and-tablets"
+
+},
+    { "id" : 2,
+        "title":"jewelery",
+    "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+    "slug":"jewlary-and-watches"
+},
+    { "id" : 3,
+        "title":"men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+    "slug":"mens-fashion"
+},
+    { "id" : 4,
+        "title":"women's clothing",
+    "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+    "slug":"womens-fashion"
+    }]

@@ -1,0 +1,66 @@
+.ForYou-container{
+    align-items: center;
+    margin-left: auto;
+}
+
+.Big-text{
+    margin-left: 1vw;
+    color: #EDF5E1;
+    font-size: 3vw;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+}
+
+.Products{
+    height: 50vh;
+}
+.Load-btn{
+    
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    font-size: 1.5vw;
+    font-weight: bold;
+    height: 5vw;
+    width: 13vw;
+    color: #EDF5E1;
+    background-color: #8ee4af;
+    border: 1px solid #EDF5E1;
+    transition: ease-in-out;
+    transition-duration: 0.1s;
+    margin-left: 40%;
+    
+    
+}
+.Load-btn:hover {
+    background-color: #EDF5E1;
+    color: #8ee4af;
+
+  }
+  @media screen and (min-aspect-ratio: 16/9) {
+    .Products{
+        height: 65vh;
+        
+    }
+
+  }
+  @media (max-width:600px)  {
+    .Products{
+        height: 35vh;
+    }
+    .Load-btn{
+        height: 5vh;
+        width: 30vw;
+        font-size: 3vw;
+    }
+  }
+  @media (max-width:801px)  {
+    .Products{
+        height: 30vh;
+    }
+    .Load-btn{
+        height: 5vh;
+        width: 30vw;
+        font-size: 3vw;
+    }
+  }
