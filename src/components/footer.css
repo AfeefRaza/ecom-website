@@ -14,7 +14,7 @@
 }
 .column a{
     text-decoration: none;
-    color: #EDF5E1;
+    color: var(--clr1);
 }
 .Bottom{
     margin-bottom: 3vh;

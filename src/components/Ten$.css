@@ -1,0 +1,33 @@
+.tenbg{
+    width: 7vw;
+    height: 7vw;
+    margin-right: 0.5vw;
+    border-radius: 20%;
+    background-color: var(--clr2);
+    color: var(--clr1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dllr{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.ten{
+    font-size: 3rem;
+    font-weight: 700;
+}
+@media (max-width:801px)  {
+    .tenbg{
+        width: 15vw;
+        height: 10vw;
+    }
+    .dllr{
+        font-size: 0.7rem;
+    }
+    .ten{
+        font-size: 1.2rem;
+
+    }
+}

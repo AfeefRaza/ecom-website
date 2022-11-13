@@ -14,7 +14,7 @@ export default function BigAd() {
          <div className="container1">
         <img id='BannerAd' src={`${Image}`} alt="Ad"/>
         <div className="grey-btn">
-        <button className='btn-circle' onClick={() => ChangeImage(ad1)}></button>
+        <button  className='btn-circle'onClick={() => ChangeImage(ad1)}></button>
         <button className='btn-circle' onClick={() => ChangeImage(ad2)}></button>
         <button className='btn-circle' onClick={() => ChangeImage(ad3)}></button>
         <button className='btn-circle' onClick={() => ChangeImage(ad4)}></button>

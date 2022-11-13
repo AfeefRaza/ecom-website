@@ -18,7 +18,7 @@ export default function ForYou(props) {
                 <Row className="row " >
                     {Products.slice(0, visible).map((product) => {
                         return (
-                            <Col className="md-3 my-2 Products" key={product.id}>
+                            <Col className="col-md-4 my-2 Products" key={product.id}>
                                 <ForYouItem Title={product.title.slice(0, 21)} Price={product.price} Imageurl={product.image} rate={product.rating.rate} count={product.rating.count} />
                             </Col>
 
@@ -31,7 +31,9 @@ export default function ForYou(props) {
                     
                     {
                   visible <= Products.length-1 && 
+                  <div className="loadbtndiv">
                     <button className='Load-btn' onClick={showMoreItems}>Load More</button>
+                    </div>
                 }
                     
                 </Row>

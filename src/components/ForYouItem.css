@@ -4,64 +4,105 @@
 
 .card{
     display: flex;
-    align-items: center;
     border-radius: 3%;
     flex-direction: column;
+    align-items: center;
     margin-left: 50px;
-    width: 17vw;
-    height: 48vh;
+    width: 20vw;
+    height: 50vh;
     text-decoration: none;
-    background-color: #05386b;
-    
+    background-color: var(--clr1);
+    border-radius: 1.3rem 0 1.3rem 0;
 }
 
 .card img{
     margin-top: 10px;
-    width: 21vh;
-    height: 14vw;
+    width: 17vw;
+    height: 17vh;
 }
 .card-body{
+    width: 20vw;
+    height: 10vh;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    padding:  0 18px;
 }
 .card-body h5{
-    color: #EDF5E1;
-    font-size: 16px;
+    margin-top: 1vh;
+
+    color: var(--clr4);
+    font-size: 1.5rem;
+    font-weight: 600;
     
 }
 .card-text {
     font-size: 25px;
-    color: #8ee4af;
+    color: var(--clr2);
 }
 .card-body h4{
     
     font-size: 1.7vw;
-    color: #EDF5E1;
+    color: var(--clr4);
 }
 .count{
-    color: #EDF5E1 !important;
+    color: var(--clr4) !important;
     font-size: 1vw;
 }
-
+.btnbottom{
+    height: 5vw;
+        width: 13vw;
+}
+.buybtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+        font-size: 1rem;
+        font-weight: bold;
+        height: 4vw;
+        width: 15vw;
+        color: var(--clr1);
+        background-color: var(--clr4);
+        border: 1px solid var(--clr3);
+        transition: ease-in-out;
+        transition-duration: 0.1s;
+        
+        
+}
+.buybtn:hover {
+    background-color: var(--clr2);
+    color: var(--clr4);
+    border: 1px solid var(--clr3);}
 .btn{
     margin-bottom: 2vh;
-    border: 1px solid #EDF5E1;
-    color: #EDF5E1;
-    background-color: #8ee4af;
+    border: 1px solid var(--clr1);
+    color: var(--clr1);
+    background-color: var(--clr4);
 }
 .btn:hover {
-    background-color: #EDF5E1;
-    color: #8ee4af;
-
+    background-color: var(--clr1);
+    color: var(--clr4);
+    border: 1px solid var(--clr4);
   }
 
 @media screen and (min-aspect-ratio: 16/9) {
     .card{
-        height: 67vh;
+        height: 65vh;
         
         
     }
-
+    .card img{
+        margin-top: 10px;
+        width: 30vh;
+        height: 12vw;
+    }
+    .card-body h5{
+        
+        font-size: 1.2rem;
+        
+    }
   }
 @media (max-width:600px)  {
     .item{
@@ -74,27 +115,28 @@
         width: 30vw;
         height: 30vh;
         
+        
     }
     .card img{
-        width: 25vw;
-        height: 25vw;
+        width: 20vw;
+        height: 20vw;
     }
     .card-body h5{
         
         font-size: 2.5vw;
+        margin: 0.7vh 0 ;
         
     }
     .card-text {
         font-size: 1.9vw;
-        color: #8ee4af;
+        margin-bottom: 0.7vh;
     }
     .card-body h4{
         
         font-size: 2vw;
-        color: #EDF5E1;
+
     }
     .count{
-        color: #EDF5E1 !important;
         font-size: 1.2vw;
     }
     .btn{
@@ -107,37 +149,50 @@
         display: flex;
         justify-content: center;
         
+        
     }
     .card{
         /* margin-left: 50px; */
+      
         width: 30vw;
-        height: 27vh;
-        
+        height: 25vh;
+
     }
     .card img{
-        width: 25vw;
-        height: 25vw;
+        width: 20vw;
+        height: 20vw;
+    }
+    .card-body{
+        padding: 0;
     }
     .card-body h5{
-        
-        font-size: 2.5vw;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0;
+        font-size: 1.7vw;
+        font-weight: 600;
+        letter-spacing: 2px;
         
     }
     .card-text {
         font-size: 1.9vw;
-        color: #8ee4af;
     }
     .card-body h4{
-        
-        font-size: 2vw;
-        color: #EDF5E1;
+        margin-bottom: 0.2vh;
+        font-size: 1.7vw;
+        letter-spacing: 1px;
     }
     .count{
-        color: #EDF5E1 !important;
         font-size: 1.2vw;
     }
-    .btn{
+    .buybtn{
+        margin-top: 0;
         height: 3vh;
+        width: 20vw;
+        font-size: 0.6rem;
+    }
+    .btn{
+        height: 1vh;
         font-size: 2vw;
     }
   }

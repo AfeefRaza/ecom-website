@@ -18,8 +18,8 @@
 .search-orders input{
     border-radius: 20px;
     box-shadow: none;
-    background-color: #8ee4af;
-    border: 1px solid #8ee4af;
+    background-color: var(--clr4);
+    border: 1px solid var(--clr3);
     -webkit-box-shadow: 0 0 6px #e9e9eb;
     -moz-box-shadow: 0 0 5px #e9e9eb;
     box-shadow: 0 0 1px #e9e9eb;
@@ -30,8 +30,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    background-color: #05386b;
-    color: #EDF5E1;
+    background-color: var(--clr4);
+    color: var(--clr1);
     width: 10vw;
     height: 4vh;
     text-decoration: none;

@@ -6,8 +6,8 @@
     height: 30vh;
     width: 100%;
 
-    background-color: #05386b;
-    color: #EDF5E1;
+    background-color: var(--clr2);
+    color: var(--clr1);
 }
 .main-grid{
     display: flex;
@@ -18,19 +18,23 @@
 .banner h1{
     font-size: 7vw;
 }
-
+.products-categories{
+    cursor: pointer;
+}
 .products-categories h4{
-    color: #EDF5E1;
+    color: var(--clr1);
     margin-left: 1.5vw;
     font-weight: 600;
+    
 }
 .left-grid{
-    width: 22%;
+    width: 25vw;
     margin-left: 2vw;
     
 }
 .left-categories{
-    border: #11130e solid;
+    color: var(--clr1);
+    border: var(--clr1) solid;
     border-radius: 5%;
     padding: 0 1vw;
 }
@@ -45,4 +49,31 @@
 .Products-1{
     width: 23%;
 }
+@media screen and (min-aspect-ratio: 16/9) {
+    .banner{
+        height: 55vh;
+    }
+    
+}
+@media (max-width:801px)  {
+    .banner{
+        height: 30vh;
+    }
+    .left-grid{
+        width: 50vw;
+        margin-left: 2vw;
+        
+    }
+    .left-grid h1{
+        font-size: 2rem;
+    
+    }
+    .products-categories{
+        font-size: 1.5rem;
 
+        
+    }
+    .right-grid{
+        width: 70vw;
+    }
+}

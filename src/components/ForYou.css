@@ -5,7 +5,7 @@
 
 .Big-text{
     margin-left: 1vw;
-    color: #EDF5E1;
+    color: var(--clr1);
     font-size: 3vw;
     font-weight: bolder;
     text-decoration: none;
@@ -13,7 +13,13 @@
 }
 
 .Products{
-    height: 50vh;
+    height: 55vh;
+    width: 25vw;
+}
+.loadbtndiv{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 .Load-btn{
     
@@ -23,18 +29,18 @@
     font-weight: bold;
     height: 5vw;
     width: 13vw;
-    color: #EDF5E1;
-    background-color: #8ee4af;
-    border: 1px solid #EDF5E1;
+    color: var(--clr4);
+    background-color: var(--clr1);
+    border: 1px solid var(--clr3);
     transition: ease-in-out;
     transition-duration: 0.1s;
-    margin-left: 40%;
     
     
 }
 .Load-btn:hover {
-    background-color: #EDF5E1;
-    color: #8ee4af;
+    background-color: var(--clr3);
+    color: var(--clr1);
+    border: 1px solid var(--clr1);
 
   }
   @media screen and (min-aspect-ratio: 16/9) {
@@ -56,7 +62,8 @@
   }
   @media (max-width:801px)  {
     .Products{
-        height: 30vh;
+        height: 25vh;
+        width: 50vw;
     }
     .Load-btn{
         height: 5vh;

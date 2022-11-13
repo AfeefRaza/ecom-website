@@ -1,16 +1,14 @@
 import React from 'react'
 import './Login.css'
 import loginimg from './loginimg.png'
-import logo from './logo.png'
+
+import Logo from './Logo';
 export default function () {
 
   return (
     <>
       <div className="Login-container">
-        <div className="welcome">
-          <h1>Welcome to</h1>
-          <img src={logo} alt="" />
-        </div>
+        
         <div className="Login-form">
           <form>
             <div className="mb-3">
@@ -25,7 +23,7 @@ export default function () {
               <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
                 <label className="form-check-label" for="exampleCheck1">Save Password</label>
             </div>
-            <button type="submit" className="btn btn-primary">Login</button>
+            <button type="submit" className="btn btn-light">Login</button>
           </form>
           
           <div className="hr"><hr /> <p>or</p><hr /></div>
@@ -35,7 +33,12 @@ export default function () {
           </div>
         </div>
         <div className="Login-img">
-          <img src={loginimg} alt="" />
+        <div className="welcome">
+          <h1>Welcome to</h1>
+          <div className="L">
+          <Logo/>
+          </div>
+        </div>
         </div>
       </div>
     </>

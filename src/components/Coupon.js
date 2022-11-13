@@ -1,11 +1,12 @@
 import React from 'react'
 import coupon from './10$.png'
 import './Coupon.css'
+import Ten$ from './Ten$';
 export default function Coupon() {
   return (
     <div>
       <div className="coupon-container">
-        <img src={coupon} alt="coupon" />
+        <Ten$/>
         <div className="text">
           <h4>$10 discount!</h4>
           <p>

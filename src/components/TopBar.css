@@ -1,15 +1,17 @@
 .Topbar{
+    z-index: 10;
     display: flex;
     justify-content: center;
-    background-color: #8ee4af ;
+    background-color: var(--clr4) ;
     width: 100%;
-    height: 3vh;
+    height: 4vh;
     align-items: center;
     
 }
 dl, ol, ul {
     margin-top: 15px;
-    
+    display: flex;
+    align-items: center;
     }
 
 
@@ -18,7 +20,7 @@ dl, ol, ul {
     display: inline-block;
     line-height: 20px;
     margin-left: 20px;
-    font-size: 0.813rem;
+
     font-weight: bold;
     
     
@@ -27,22 +29,26 @@ dl, ol, ul {
 }
 .topbaritem a{
     text-decoration: none;
-    color: #05386b;
+    color: var(--clr1);
     transition: color .2s;
 }
 .topbaritem a:hover{
-    color: #EDF5E1;
+    color: var(--clr2);
 }
 @media (max-width:600px)  {
     .Topbar{
         width: 100%;
         height: 10vh;
+        display: none;
     }
+    dl, ol, ul {
+        display: inline-block;
 
+        }
     .topbaritem a{
         
         padding: 2px;
-        border: #05386b solid 1px;
+        border: var(--clr1) solid 1px;
     }
     .topbaritem:first-child {
         margin-left: 0;
@@ -55,9 +61,15 @@ dl, ol, ul {
 
         display: flex;
         justify-content: center;
-        margin-top: 2vh;
+        /* margin-top: 2vh; */
     }
     
+}
+@media screen and (min-aspect-ratio: 16/9) {
+    .Topbar{
+        height: 4vh;
+    }
+
 }
 @media (max-width:801px)  {
     .Topbar{
@@ -68,7 +80,7 @@ dl, ol, ul {
     .topbaritem a{
         
         padding: 5px;
-        border: #05386b solid 1px;
+        border: var(--clr1) solid 1px;
     }
     .topbaritem:first-child {
         margin-left: 0;

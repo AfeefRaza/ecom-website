@@ -15,10 +15,15 @@ import Allproducts from './components/Allproducts';
 import Order from './components/Order';
 import Bottom from './components/Bottom';
 
+
+
 function App() {
   return (
-    <div>
+    <div id="App">
+       
       <HashRouter>
+   
+      <div className="page-wrap">
       <TopBar/>
       <NavBar/>
       <Routes>
@@ -34,7 +39,10 @@ function App() {
       
       </Routes>
       <Bottom/>
+      </div>
       </HashRouter>
+      
+  
     </div>
   );
 }
