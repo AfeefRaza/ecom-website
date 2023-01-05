@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecom-website/static/css/main.b8076224.css",
-    "main.js": "/ecom-website/static/js/main.fc5b4c01.js",
+    "main.css": "/ecom-website/static/css/main.bbe73ff7.css",
+    "main.js": "/ecom-website/static/js/main.d98e2ae8.js",
     "static/js/787.a91053ce.chunk.js": "/ecom-website/static/js/787.a91053ce.chunk.js",
     "static/media/ad3.jpg": "/ecom-website/static/media/ad3.52c0e402b90f3f40904d.jpg",
     "static/media/ad1.jpg": "/ecom-website/static/media/ad1.0e95f348bfa6fface027.jpg",
@@ -9,12 +9,12 @@
     "static/media/ad2.jpg": "/ecom-website/static/media/ad2.8c322f1fabd46eeead6a.jpg",
     "static/media/bslogobig.svg": "/ecom-website/static/media/bslogobig.20a1279e29035e8fc831a02363b70641.svg",
     "index.html": "/ecom-website/index.html",
-    "main.b8076224.css.map": "/ecom-website/static/css/main.b8076224.css.map",
-    "main.fc5b4c01.js.map": "/ecom-website/static/js/main.fc5b4c01.js.map",
+    "main.bbe73ff7.css.map": "/ecom-website/static/css/main.bbe73ff7.css.map",
+    "main.d98e2ae8.js.map": "/ecom-website/static/js/main.d98e2ae8.js.map",
     "787.a91053ce.chunk.js.map": "/ecom-website/static/js/787.a91053ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8076224.css",
-    "static/js/main.fc5b4c01.js"
+    "static/css/main.bbe73ff7.css",
+    "static/js/main.d98e2ae8.js"
   ]
 }
