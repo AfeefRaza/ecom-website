@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecom-website/static/css/main.42dfa0ae.css",
-    "main.js": "/ecom-website/static/js/main.09ffae99.js",
+    "main.css": "/ecom-website/static/css/main.e6543252.css",
+    "main.js": "/ecom-website/static/js/main.c21b4ea6.js",
     "static/js/787.a91053ce.chunk.js": "/ecom-website/static/js/787.a91053ce.chunk.js",
     "static/media/womenad.png": "/ecom-website/static/media/womenad.d692c20ddee303ef99dc.png",
     "static/media/shoesad.png": "/ecom-website/static/media/shoesad.38fac83ad6a302e70cd6.png",
@@ -9,12 +9,12 @@
     "static/media/electronicsad.png": "/ecom-website/static/media/electronicsad.6780b5f3a091bacc5713.png",
     "static/media/bslogobig.svg": "/ecom-website/static/media/bslogobig.20a1279e29035e8fc831a02363b70641.svg",
     "index.html": "/ecom-website/index.html",
-    "main.42dfa0ae.css.map": "/ecom-website/static/css/main.42dfa0ae.css.map",
-    "main.09ffae99.js.map": "/ecom-website/static/js/main.09ffae99.js.map",
+    "main.e6543252.css.map": "/ecom-website/static/css/main.e6543252.css.map",
+    "main.c21b4ea6.js.map": "/ecom-website/static/js/main.c21b4ea6.js.map",
     "787.a91053ce.chunk.js.map": "/ecom-website/static/js/787.a91053ce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42dfa0ae.css",
-    "static/js/main.09ffae99.js"
+    "static/css/main.e6543252.css",
+    "static/js/main.c21b4ea6.js"
   ]
 }
